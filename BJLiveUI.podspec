@@ -48,14 +48,14 @@ Pod::Spec.new do |s|
     end
     s.subspec 'static.dependencies' do |ss|
         ss.frameworks = ['CoreGraphics', 'Foundation', 'MobileCoreServices', 'Photos', 'SafariServices', 'UIKit', 'WebKit']
-        ss.dependency 'BJLiveBase'
-        ss.dependency 'BJLiveBase/Base'
-        ss.dependency 'BJLiveBase/Auth'
-        ss.dependency 'BJLiveBase/Ext'
-        ss.dependency 'BJLiveBase/HUD'
-        ss.dependency 'BJLiveBase/Masonry'
-        ss.dependency 'BJLiveBase/Networking'
-        ss.dependency 'BJLiveBase/WebImage/AFNetworking'
+        # ss.dependency 'BJLiveBase'
+        # ss.dependency 'BJLiveBase/Base'
+        # ss.dependency 'BJLiveBase/Auth'
+        # ss.dependency 'BJLiveBase/Ext'
+        # ss.dependency 'BJLiveBase/HUD'
+        # ss.dependency 'BJLiveBase/Masonry'
+        # ss.dependency 'BJLiveBase/Networking'
+        # ss.dependency 'BJLiveBase/WebImage/AFNetworking'
         ss.dependency 'BJLiveCore', '~> 1.3.9'
         ss.dependency 'Masonry'
         ss.dependency 'QBImagePickerController', '~> 3.0'
