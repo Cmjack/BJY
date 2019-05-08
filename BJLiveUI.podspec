@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
 
     s.source        = {
-        :git => 'http://git.baijiashilian.com/open-ios/BJLiveUI.git',
+        :git => 'https://github.com/Cmjack/BJY.git',
         :tag => s.version.to_s
     }
     s.pod_target_xcconfig = {
