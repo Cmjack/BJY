@@ -275,7 +275,6 @@
 				DF97FD021E2CCBEB00A1BF8F /* Sources */,
 				DF97FD031E2CCBEB00A1BF8F /* Frameworks */,
 				DF97FD041E2CCBEB00A1BF8F /* Resources */,
-				3A08A491E2336988DB4BF684 /* [CP] Embed Pods Frameworks */,
 				1EA6E2F00E4590FF15E7751C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -415,7 +414,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BJLiveUI/Pods-BJLiveUI-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-BJLiveUI/Pods-BJLiveUI-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/BJLiveUI/BJLiveUI.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/QBImagePickerController/QBImagePicker.bundle",
 			);
@@ -426,25 +425,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BJLiveUI/Pods-BJLiveUI-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3A08A491E2336988DB4BF684 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BJLiveUI/Pods-BJLiveUI-frameworks.sh",
-				"${PODS_ROOT}/../../../BJLiveCore/frameworks/BJHLMediaPlayer.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BJHLMediaPlayer.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BJLiveUI/Pods-BJLiveUI-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BJLiveUI/Pods-BJLiveUI-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		41FCD8955B9B096B148B231A /* [CP] Check Pods Manifest.lock */ = {

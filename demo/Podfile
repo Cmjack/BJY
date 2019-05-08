@@ -24,8 +24,8 @@ target 'BJLiveUI' do
     # use_frameworks!
     
     # dev
-    pod 'BJLiveBase'#, :path => '../../BJLiveBase/'
-    pod 'BJLiveCore'#, :path => '../../BJLiveCore/'
+    # pod 'BJLiveBase'#, :path => '../../BJLiveBase/'
+    # pod 'BJLiveCore'#, :path => '../../BJLiveCore/'
     pod 'BJLiveUI', :path => '../'
     
     # demo

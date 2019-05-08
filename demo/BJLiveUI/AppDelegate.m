@@ -46,12 +46,12 @@ void BJLUncaughtExceptionHandler(NSException *exception) {
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [BJRootViewController sharedInstance];
     
-    [self beforeVisible];
+//    [self beforeVisible];
     [self.window makeKeyAndVisible];
     // !!!: after every thing is done
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self afterVisible];
-    });
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [self afterVisible];
+//    });
     
     return YES;
 }
