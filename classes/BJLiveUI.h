@@ -16,3 +16,4 @@
 
 FOUNDATION_EXPORT NSString * BJLiveUIName(void);
 FOUNDATION_EXPORT NSString * BJLiveUIVersion(void);
+//test a
